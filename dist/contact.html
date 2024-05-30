@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/8999173b5f.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <title>À Propos de Moi | Développeur Web</title>
+</head>
+<body>
+  <!-- Header -->
+  <header id="header-inner">
+    <div class="container">
+      <nav id="main-nav">
+        <img src="img/logo.png" alt="Mon Portfolio" id="logo">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="about.html">À Propos</a></li>
+          <li><a href="work.html">Travaux</a></li>
+          <li><a href="contact.html" class="current">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- Section A: Contact form -->
+  <section id="contact-a" class="text-center py-3">
+    <div class="container">
+      <h2 class="section-title">Me Contacter</h2>
+      <div class="bottom-line"></div>
+      <p class="lead">Voici comment vous pouvez me contacter</p>
+      <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+        <div class="text-fields">
+          <input type="text" name="name" class="text-input name-input" placeholder="Nom">
+          <input type="text" name="subject" class="text-input subject-input" placeholder="Sujet">
+          <input type="email" name="email" class="text-input email-input" placeholder="Adresse Email">
+          <input type="text" name="phone" class="text-input phone-input" placeholder="Téléphone">
+          <textarea class="text-input message-input" name="message" placeholder="Saisir message"></textarea>
+          <div class="my-2">
+            <div data-netlify-recaptcha="true"></div>
+          </div>
+        </div>
+        <button type="submit" class="btn-dark">Envoyer</button>
+      </form>
+    </div>
+  </section>
+  <!-- Section B: Contact Info -->
+  <section id="contact-b" class="py-3 bg-dark">
+    <div class="container">
+      <div class="contact-info">
+        <div>
+          <i class="fas fa-enveloppe fa-2x"></i>
+          <h3>Email</h3>
+          <p>kevin.thooft@gmail.com</p>
+        </div>
+        <div>
+          <i class="fas fa-phone fa-2x"></i>
+          <h3>Téléphone</h3>
+          <p>06.59.98.26.72</p>
+        </div>
+        <div>
+          <i class="fas fa-address-card fa-2x"></i>
+          <h3>Adresse</h3>
+          <p>123 rue bidon</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section C: Tagline -->
+  <section id="contact-c" class="bg-main py-4">
+    <div class="container">
+      <h1>Commençons Votre Prochain Projet</h1>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer id="main-footer">
+    <div class="footer-content container">
+      <p>Copyright &copy; 2024. Tous Droits Réservés</p>
+      <div class="social">
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
