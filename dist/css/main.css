@@ -133,7 +133,7 @@ input[class^='btn-']:hover {
     top: 0;
     left: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
     line-height: 0; }
   .item-text {
     position: absolute;
@@ -307,13 +307,16 @@ img {
   padding: 0.8rem; }
 
 #about-a .award-1 {
-  grid-area: aw1; }
+  grid-area: aw1;
+  text-align: center; }
 
 #about-a .award-2 {
-  grid-area: aw2; }
+  grid-area: aw2;
+  text-align: center; }
 
 #about-a .award-3 {
-  grid-area: aw3; }
+  grid-area: aw3;
+  text-align: center; }
 
 #about-a .award-1 .fas,
 #about-a .award-2 .fas,
@@ -407,7 +410,8 @@ img {
       width: 20px;
       line-height: 20px;
       text-align: center;
-      padding: 0.5rem; }
+      padding: 0.5rem;
+      color: #fff; }
       #main-footer .footer-content .social .fab:hover {
         background: #ffbc00; }
 
