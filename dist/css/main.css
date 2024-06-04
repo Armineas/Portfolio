@@ -45,7 +45,7 @@ input[class^='btn-']:hover {
   color: #333; }
 
 .lead {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin-bottom: 2rem; }
 
 .text-center {
@@ -305,6 +305,9 @@ img {
   grid-area: bio;
   border-left: 3px solid #ffbc00;
   padding: 0.8rem; }
+  #about-a .bio p {
+    margin-top: -1rem;
+    font-size: 1.1rem; }
 
 #about-a .award-1 {
   grid-area: aw1;
@@ -326,7 +329,7 @@ img {
 
 #about-b .progress {
   overflow: hidden;
-  height: 20px;
+  height: 10px;
   background: #ccc;
   border-radius: 5px;
   margin-bottom: 0.6rem; }
