@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,12 +12,13 @@
   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.svg">
   <title>À Propos de Moi | Développeur Web</title>
 </head>
+
 <body>
   <!-- Header -->
   <header id="header-inner">
     <div class="container">
       <nav id="main-nav">
-        <img src="img/logo.png" alt="Mon Portfolio" id="logo">
+        <img src="img/logo.png" alt="Mon Portfolio" id="logo" />
         <ul>
           <li><a href="index.html">Accueil</a></li>
           <li><a href="about.html">À Propos</a></li>
@@ -26,6 +28,11 @@
       </nav>
     </div>
   </header>
+  <!-- <?php
+  $_POST['page'] = basename(__FILE__, '.php');
+  define('__ROOT__', dirname(__FILE__));
+  require_once(__ROOT__ . '/common/header.php');
+  ?> -->
   <!-- Section A: Contact form -->
   <section id="contact-a" class="text-center py-3">
     <div class="container">
@@ -86,5 +93,9 @@
       </div>
     </div>
   </footer>
+  <!-- <?php
+  require_once(__ROOT__ . '/common/footer.php');
+  ?> -->
 </body>
+
 </html>

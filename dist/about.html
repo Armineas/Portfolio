@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://kit.fontawesome.com/8999173b5f.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.svg" />
   <title>À Propos de Moi | Développeur Web</title>
 </head>
+
 <body>
   <!-- Header -->
   <header id="header-inner">
     <div class="container">
       <nav id="main-nav">
-        <img src="img/logo.png" alt="Mon Portfolio" id="logo">
+        <img src="img/logo.png" alt="Mon Portfolio" id="logo" />
         <ul>
           <li><a href="index.html">Accueil</a></li>
-          <li><a href="about.html" class="current">À Propos</a></li>
+          <li><a href="about.html">À Propos</a></li>
           <li><a href="work.html">Travaux</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" class="current">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
+  <!-- <?php
+  $_POST['page'] = basename(__FILE__, '.php');
+  define('__ROOT__', dirname(__FILE__));
+  require_once(__ROOT__ . '/common/header.php');
+  ?> -->
   <!-- Section A: Info -->
   <section id="about-a" class="text-center-py-3">
     <div class="container">
@@ -33,13 +40,26 @@
       <div class="bottom-line"></div>
       <p>Laissez moi vous parler un peu de moi et de ce que je fais...</p>
       <div class="about-info">
-        <img src="img/about.jpg" alt="" class="bio-image">
+        <img src="img/about.jpg" alt="" class="bio-image" />
         <div class="bio bg-light">
           <h3>Votre Projet Est Entre De Bonnes Mains</h3>
-          <br>
-          <p>Passionné par le développement web, j'ai acquis une solide expérience en tant que développeur Back-end PHP au cours de mon dernier poste. Je suis particulièrement compétent dans l'optimisation des bases de données, l'utilisation de Symfony et le développement d'API. J'ai eu l'opportunité de travailler sur des projets complexes qui m'ont permis de perfectionner mes compétences en résolution de problèmes et en amélioration des performances.
-          <br><br>
-          En dehors du travail, je cultive deux passions qui m'apportent équilibre et inspiration : la plongée sous-marine et le modélisme. La plongée me permet de découvrir des mondes sous-marins fascinants, tandis que le modélisme nourrit ma créativité et ma précision. Ces activités m'aident à développer une approche minutieuse et réfléchie dans mon travail.</p>
+          <br />
+          <p>
+            Passionné par le développement web, j'ai acquis une solide
+            expérience en tant que développeur Back-end PHP au cours de mon
+            dernier poste. Je suis particulièrement compétent dans
+            l'optimisation des bases de données, l'utilisation de Symfony et
+            le développement d'API. J'ai eu l'opportunité de travailler sur
+            des projets complexes qui m'ont permis de perfectionner mes
+            compétences en résolution de problèmes et en amélioration des
+            performances. <br /><br />
+            En dehors du travail, je cultive deux passions qui m'apportent
+            équilibre et inspiration : la plongée sous-marine et le modélisme.
+            La plongée me permet de découvrir des mondes sous-marins
+            fascinants, tandis que le modélisme nourrit ma créativité et ma
+            précision. Ces activités m'aident à développer une approche
+            minutieuse et réfléchie dans mon travail.
+          </p>
         </div>
         <!-- <div class="award-1">
           <i class="fas fa-award fa-3x"></i>
@@ -64,29 +84,29 @@
     <div class="container">
       <h2 class="section-title">Compétences Techniques</h2>
       <div class="bottom-line"></div>
-      <h4>HTML & CSS : </h4>
+      <h4>HTML & CSS :</h4>
       <div class="progress">
-        <div style="width:95%"></div>
+        <div style="width: 95%"></div>
       </div>
-      <h4>PHP : </h4>
+      <h4>PHP :</h4>
       <div class="progress">
-        <div style="width:90%"></div>
+        <div style="width: 90%"></div>
       </div>
-      <h4>Javascript : </h4>
+      <h4>Javascript :</h4>
       <div class="progress">
-        <div style="width:60%"></div>
+        <div style="width: 60%"></div>
       </div>
-      <h4>Git : </h4>
+      <h4>Git :</h4>
       <div class="progress">
-        <div style="width:85%"></div>
+        <div style="width: 85%"></div>
       </div>
-      <h4>Docker : </h4>
+      <h4>Docker :</h4>
       <div class="progress">
-        <div style="width:70%"></div>
+        <div style="width: 70%"></div>
       </div>
-      <h4>MySQL : </h4>
+      <h4>MySQL :</h4>
       <div class="progress">
-        <div style="width:100%"></div>
+        <div style="width: 100%"></div>
       </div>
     </div>
   </section>
@@ -94,51 +114,51 @@
   <section id="about-c" class="py-4 bg-light">
     <div class="container">
       <div class="about-logos">
-        <img src="img/about-logos/logo-html.png" alt="HTML">
-        <img src="img/about-logos/logo-css.png" alt="CSS">
-        <img src="img/about-logos/logo-symfony.png" alt="Symfony">
-        <img src="img/about-logos/logo-php-mysql.png" alt="PHP & MySQL">
+        <img src="img/about-logos/logo-html.png" alt="HTML" />
+        <img src="img/about-logos/logo-css.png" alt="CSS" />
+        <img src="img/about-logos/logo-symfony.png" alt="Symfony" />
+        <img src="img/about-logos/logo-php-mysql.png" alt="PHP & MySQL" />
       </div>
     </div>
   </section>
   <!-- Section D: Témoignages -->
   <!-- <section id="about-d" class="py-4">
-    <div class="container">
-      <h2 class="section-title">Témoignages</h2>
-      <div class="bottom-line"></div>
-      <p class="lead text-center">Jetez un oeil sur ce que mes clients disent</p>
-      <div class="testimonials">
-        <div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, molestias ratione distinctio ad iure nesciunt. Fuga, possimus, nesciunt tempore reiciendis provident ad facere unde earum dolore eius veniam deserunt quod.</p>
-          <ul>
-            <li><img src="img/testimonials/person1.jpg" alt=""></li>
-            <li>Sam Smith, New York</li>
-          </ul>
-        </div>
-        <div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, dolorem nostrum? Eius dolor, sed quibusdam minima molestias esse placeat consequuntur cum fugit ut repudiandae aspernatur dolorem reprehenderit hic ex molestiae.</p>
-          <ul>
-            <li><img src="img/testimonials/person2.jpg" alt=""></li>
-            <li>Sarah Williams, Michigan</li>
-          </ul>
-        </div>
-        <div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis impedit at natus maxime repellat, tenetur quas. Sit consequatur rem rerum odit, quasi, commodi nostrum iusto, vitae ea delectus iure dignissimos!</p>
-          <ul>
-            <li><img src="img/testimonials/person3.jpg" alt=""></li>
-            <li>Steve Thomson, Boston</li>
-          </ul>
-        </div>
-        <div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus delectus quos inventore molestias tenetur consequuntur reprehenderit nemo dolorum numquam, aut explicabo laboriosam? Itaque assumenda dolor nam explicabo inventore at velit.</p>
-          <ul>
-            <li><img src="img/testimonials/person4.jpg" alt=""></li>
-            <li>Jill Johnson, London</li>
-          </ul>
+      <div class="container">
+        <h2 class="section-title">Témoignages</h2>
+        <div class="bottom-line"></div>
+        <p class="lead text-center">Jetez un oeil sur ce que mes clients disent</p>
+        <div class="testimonials">
+          <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, molestias ratione distinctio ad iure nesciunt. Fuga, possimus, nesciunt tempore reiciendis provident ad facere unde earum dolore eius veniam deserunt quod.</p>
+            <ul>
+              <li><img src="img/testimonials/person1.jpg" alt=""></li>
+              <li>Sam Smith, New York</li>
+            </ul>
+          </div>
+          <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, dolorem nostrum? Eius dolor, sed quibusdam minima molestias esse placeat consequuntur cum fugit ut repudiandae aspernatur dolorem reprehenderit hic ex molestiae.</p>
+            <ul>
+              <li><img src="img/testimonials/person2.jpg" alt=""></li>
+              <li>Sarah Williams, Michigan</li>
+            </ul>
+          </div>
+          <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis impedit at natus maxime repellat, tenetur quas. Sit consequatur rem rerum odit, quasi, commodi nostrum iusto, vitae ea delectus iure dignissimos!</p>
+            <ul>
+              <li><img src="img/testimonials/person3.jpg" alt=""></li>
+              <li>Steve Thomson, Boston</li>
+            </ul>
+          </div>
+          <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus delectus quos inventore molestias tenetur consequuntur reprehenderit nemo dolorum numquam, aut explicabo laboriosam? Itaque assumenda dolor nam explicabo inventore at velit.</p>
+            <ul>
+              <li><img src="img/testimonials/person4.jpg" alt=""></li>
+              <li>Jill Johnson, London</li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </section> -->
+    </section> -->
   <!-- Footer -->
   <footer id="main-footer">
     <div class="footer-content container">
@@ -150,5 +170,9 @@
       </div>
     </div>
   </footer>
+  <!-- <?php
+  require_once(__ROOT__ . '/common/footer.php');
+  ?> -->
 </body>
+
 </html>

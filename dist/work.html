@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,21 +12,27 @@
   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.svg">
   <title>Mes Travaux | Développeur Web</title>
 </head>
+
 <body>
   <!-- Header -->
   <header id="header-inner">
     <div class="container">
       <nav id="main-nav">
-        <img src="img/logo.png" alt="Mon Portfolio" id="logo">
+        <img src="img/logo.png" alt="Mon Portfolio" id="logo" />
         <ul>
           <li><a href="index.html">Accueil</a></li>
           <li><a href="about.html">À Propos</a></li>
-          <li><a href="work.html" class="current">Travaux</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="work.html">Travaux</a></li>
+          <li><a href="contact.html" class="current">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
+  <!-- <?php
+  $_POST['page'] = basename(__FILE__, '.php');
+  define('__ROOT__', dirname(__FILE__));
+  require_once(__ROOT__ . '/common/header.php');
+  ?> -->
   <!-- Section A: Gallerie -->
   <section id="work-a" class="text-center py-3">
     <div class="container">
@@ -114,7 +121,7 @@
       </div>
     </div>
   </section>
-  
+
   <!-- Footer -->
   <footer id="main-footer">
     <div class="footer-content container">
@@ -126,5 +133,9 @@
       </div>
     </div>
   </footer>
+  <!-- <?php
+  require_once(__ROOT__ . '/common/footer.php');
+  ?> -->
 </body>
+
 </html>
